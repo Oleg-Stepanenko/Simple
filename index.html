@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Simple</title>
 </head>
 
@@ -23,38 +24,38 @@
                     <li class="header_menu_item"><a href="#">О нас</a></li>
                     <li class="header_menu_item"><a href="#">Контакты</a></li>
                 </ul>
-                <div class="header_btn">
-                    <ul class="header_btn_icon">
-                        <li class="header_menu_item"><a href="#"><svg class="header_menu_item_svg" width="24"
-                                    height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M13 19C8.58175 19 5.00003 15.4183 5.00003 11C5.00003 6.58172 8.58175 3 13 3C17.4183 3 21 6.58172 21 11C21 15.4183 17.4183 19 13 19Z"
-                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                    <path d="M2.99998 20.9999L7.34998 16.6499" stroke-width="2" stroke-linecap="round"
-                                        stroke-linejoin="round" />
-                                </svg>
-                            </a></li>
-                        <li class="header_menu_item"><a href="#"><svg class="header_menu_item_svg" width="24"
-                                    height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <g clip-path="url(#clip0_1_497)">
-                                        <path
-                                            d="M15 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H15"
-                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                                        <path d="M10 17L15 12L10 7" stroke-width="2" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                        <path d="M15 12H3" stroke-width="2" stroke-linecap="round"
-                                            stroke-linejoin="round" />
-                                    </g>
-                                    <defs>
-                                        <clipPath id="clip0_1_497">
-                                            <rect width="24" height="24" fill="white" />
-                                        </clipPath>
-                                    </defs>
-                                </svg>
-                            </a></li>
-                    </ul>
-                </div>
             </nav>
+            <div class="header_btn">
+                <ul class="header_btn_icon">
+                    <li class="header_menu_item"><a href="#"><svg class="header_menu_item_svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M13 19C8.58175 19 5.00003 15.4183 5.00003 11C5.00003 6.58172 8.58175 3 13 3C17.4183 3 21 6.58172 21 11C21 15.4183 17.4183 19 13 19Z"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M2.99998 20.9999L7.34998 16.6499" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </a></li>
+                    <li class="header_menu_item"><a href="#"><svg class="header_menu_item_svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0_1_497)">
+                                    <path
+                                        d="M15 3H19C19.5304 3 20.0391 3.21071 20.4142 3.58579C20.7893 3.96086 21 4.46957 21 5V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H15"
+                                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                    <path d="M10 17L15 12L10 7" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                    <path d="M15 12H3" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0_1_497">
+                                        <rect width="24" height="24" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                        </a></li>
+                </ul>
+            </div>
         </div>
     </header>
     <main class="main">
@@ -71,26 +72,26 @@
                     </li>
                     <li><a class="about_us_list_button" href="#">Каталог</a></li>
                 </ul>
-                <img src="img/tube.png" alt="tube">
+                <img src="img/tube_main.png" class="about_us_img" alt="tube">
             </div>
         </section>
         <section class="product_info">
             <div class="container product_info_container">
                 <div class="product_info_img">
                     <ul class="product_info_img_list">
-                        <li class="product_info_img_item"><img src="img/product_info_img1.png" alt="">
+                        <li class="product_info_img_item"><img src="img/product_info_img1.png" class="product_info_img_item_image" alt="">
                             <div class="product_info_img_item_box">
                                 <h3 class="product_info_img_item_box_heading">V.1</h3>
                                 <p class="product_info_img_item_box_text">Результат вашего обучения</p>
                             </div>
                         </li>
-                        <li class="product_info_img_item"><img src="img/product_info_img2.png" alt="">
+                        <li class="product_info_img_item"><img src="img/product_info_img2.png" class="product_info_img_item_image" alt="">
                             <div class="product_info_img_item_box">
                                 <h3 class="product_info_img_item_box_heading">V.2</h3>
                                 <p class="product_info_img_item_box_text">Результат вашего обучения</p>
                             </div>
                         </li>
-                        <li class="product_info_img_item"><img src="img/product_info_img3.png" alt="">
+                        <li class="product_info_img_item"><img src="img/product_info_img3.png" class="product_info_img_item_image" alt="">
                             <div class="product_info_img_item_box">
                                 <h3 class="product_info_img_item_box_heading">V.3</h3>
                                 <p class="product_info_img_item_box_text">Результат вашего обучения</p>
@@ -122,7 +123,7 @@
             <div class="container our_product_container">
                 <ul class="our_product_list">
                     <li class="our_product_item">
-                        <img class="our_product_item_img" src="img/our_product_img_packaging.jpg" alt="">
+                        <img class="our_product_item_img our_product_item_img_1" src="img/our_product_img_packaging.png" alt="">
                         <h4 class="our_product_item_heading">Упаковка</h4>
                         <span class="our_product_item_subtitle">Тираж: от 50 штук</span>
                         <p class="our_product_item_text">Сделано из крафт-бумаги или плотного картона. Упаковки имеют
@@ -135,7 +136,7 @@
                             </svg></a>
                     </li>
                     <li class="our_product_item">
-                        <img class="our_product_item_img" src="img/our_product_img_bag.jpg" alt="">
+                        <img class="our_product_item_img our_product_item_img_2" src="img/our_product_img_bag.png" alt="">
                         <h4 class="our_product_item_heading">Пакеты</h4>
                         <span class="our_product_item_subtitle">Тираж: от 200 штук</span>
                         <p class="our_product_item_text">С прямоугольным дном. От 10 см до 60 см по высоте. Материалы:
@@ -148,7 +149,7 @@
                             </svg></a>
                     </li>
                     <li class="our_product_item">
-                        <img class="our_product_item_img" src="img/our_product_img_case.jpg" alt="">
+                        <img class="our_product_item_img our_product_item_img_3" src="img/our_product_img_case.png" alt="">
                         <h4 class="our_product_item_heading">Кейсы</h4>
                         <span class="our_product_item_subtitle">Тираж: от 30 штук</span>
                         <p class="our_product_item_text">Подойдет для документов и других бумаг. Различные расцветки,
@@ -161,7 +162,7 @@
                             </svg></a>
                     </li>
                     <li class="our_product_item">
-                        <img class="our_product_item_img" src="img/our_product_img_other.jpg" alt="">
+                        <img class="our_product_item_img our_product_item_img_4" src="img/our_product_img_other.png" alt="">
                         <h4 class="our_product_item_heading">Другие изделия </h4>
                         <span class="our_product_item_subtitle">Тираж: от 100 штук</span>
                         <p class="our_product_item_text">Нестандартные упаковки, кейсы и другие изделия различных
@@ -177,16 +178,12 @@
             </div>
         </section>
         <section class="partners">
-            <div class="container">
+            <div class="container partners_container">
                 <ul class="partners_logo">
-                    <li class="partners_list"><a href="#" class="partners_list_link"><img src="img/hahnemuehle-logo.svg"
-                                alt="hahnemuehle"></a></li>
-                    <li class="partners_list"><a href="#" class="partners_list_link"><img src="img/canson_logo.svg"
-                                alt="canson"></a></li>
-                    <li class="partners_list"><a href="#" class="partners_list_link"><img
-                                src="img/royal_talens_logo.svg" alt="oyal_talens"></a></li>
-                    <li class="partners_list"><a href="#" class="partners_list_link"><img src="img/fabriano_logosvg.svg"
-                                alt="fabriano"></a></li>
+                    <li class="partners_list"><a href="#" class="partners_list_link"><img src="img/hahnemuehle-logo.svg" class="partners_list_hahnemuehle" alt="hahnemuehle"></a></li>
+                    <li class="partners_list"><a href="#" class="partners_list_link"><img src="img/canson_logo.svg" class="partners_list_canson" alt="canson"></a></li>
+                    <li class="partners_list"><a href="#" class="partners_list_link"><img src="img/royal_talens_logo.svg" class="partners_list_oyaltalens" alt="oyaltalens"></a></li>
+                    <li class="partners_list"><a href="#" class="partners_list_link"><img src="img/fabriano_logosvg.svg" class="partners_list_fabriano" alt="fabriano"></a></li>
                 </ul>
             </div>
         </section>
@@ -202,13 +199,14 @@
                     </li>
                     <li class="book_list_item"><a class="book_list_item_link" href="#">Купить</a></li>
                 </ul>
-                <img src="img/book.png" alt="book">
+                <img src="img/book.png" class="book_img" alt="book">
+                <img src="img/bookmedia576.png" class="book_img_576" alt="book567">
             </div>
         </section>
     </main>
     <footer class="footer">
         <div class="container footer_container">
-            <a href="#"><img src="img/footer_logo.svg" alt="footer_logo" class="footer_logo"></a>
+            <a href="#"  class="footer_logo"><img src="img/footer_logo.svg" alt="footer_logo"></a>
             <ul class="footer_list">
                 <li class="footer_list_icon"><a href="#"><svg class="footer_icon_social" width="24" height="24"
                             viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -265,5 +263,4 @@
         <p class="simple_title">simple <span class="simple_r">®</span> 2021</p>
     </div>
 </body>
-
 </html>

@@ -1,0 +1,542 @@
+@media (max-width: 1110px){
+    .header {
+        height: 106px;
+    }
+    .header_container {
+        flex-wrap: wrap;
+        padding: 0px 39px;
+    }
+    .header_logo {
+        margin-bottom: 30px;
+        order: 1;
+    }
+    .header_nav {
+        display: block;
+        width: 100%;
+        order: 3;
+    }
+    .header_menu {
+        gap: 0px;
+        margin: 0px;
+    }
+    .header_btn {
+        order: 2;
+    }
+    .about_us_container {
+        padding: 60px 39px 0px;
+    }
+    .about_us_list {
+        margin-top: 5px;
+        margin-right: 30px;
+    }
+    .about_us_img {
+        width: 100%;
+        max-width: 309px;
+        height: 410px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .about_us_list_heading {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    .about_us_list_text {
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .product_info {
+        padding: 60px 0px;
+    }
+    .product_info_container {
+        padding: 0px 39px;
+    }
+    .product_info_img_item {
+        flex-direction: column;
+        width: 210px;
+    }
+    .product_info_paper {
+        margin-top: 40px;
+        gap: 30px;
+    }
+    .product_info_paper_img {
+        width: 330px;
+        height: 256px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .product_info_paper_list {
+        margin-top: 0px;
+        height: 360px;
+    }
+    .product_info_paper_item_heading {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .product_info_paper_text {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .our_product {
+        padding: 0px;
+        margin-top: 60px;
+    }
+    .our_product_container {
+        padding: 0px 39px;
+    }
+    .our_product_list {
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .our_product_item {
+        max-width: 330px;
+        height: 100%;
+        min-height: 434px;
+        margin-bottom: 60px;
+    }
+    .our_product_item_img {
+        max-width: 330px;
+        max-height: 180px;
+        object-fit: none;
+        object-position: top;
+    }
+
+    .partners {
+        padding: 60px 0px;
+    }
+    .partners_container {
+        padding: 0px 39px 0px;
+    }
+    .partners_list {
+        width: 150px;
+        height: 80px;
+    }
+    .partners_list_hahnemuehle {
+        width: 115px;
+        height: 32px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .partners_list_canson {
+        width: 109x;
+        height: 31px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .partners_list_oyaltalens {
+        width: 132px;
+        height: 12px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .partners_list_fabriano {
+        width: 122px;
+        height: 15x;
+        object-fit: cover;
+        object-position: top;
+    }
+    
+    .book {
+        padding-top: 60px;
+    }
+    .book_container {
+        padding-left: 39px;
+    }
+    .book_list_item_heading {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .book_img {
+    display: none;
+    }
+    .book_img_576 {
+        display: block;
+        object-fit: cover;
+        object-position: top;
+    }
+    .footer_container {
+        padding: 0px 33px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 104px;
+    }
+    .header_container {
+        padding: 0px 33px;
+    }
+    .header_logo {
+        margin-right: 0px;
+    }
+    .about_us_container {
+        padding: 20px 32px 0px;
+    }
+    .about_us_list {
+        margin-top: 40px;
+        width: 287px;
+        height: 296px;
+    }
+    .about_us_img {
+        width: 195px;
+        height: 396px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .about_us_list_heading {
+        font-size: 38px;
+        line-height: 38px;
+    }
+    .about_us_list_text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about_us_list_button,
+    .book_list_item_link {
+    width: 196px;
+    height: 60px;
+    padding: 20px 50px 20px 50px;
+    border: 1px solid var(--button-color);
+    }
+    .product_info {
+        padding: 60px 0px;
+    }
+    .product_info_container {
+        padding: 0px 32px;
+    }
+    .product_info_img_item {
+        flex-direction: column;
+        width: 150px;
+        height: 203px;
+    }
+    .product_info_img_item_image {
+        width: 150px;
+        height: 111px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .product_info_img_item_box {
+        width: 150px;
+    }
+    .product_info_img_item_box_heading
+    .product_info_img_item_box_text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .product_info_paper {
+        flex-direction: column;
+        margin-top: 40px;
+        max-height: 512px;
+        gap: 20px;
+    }
+    .product_info_paper_img {
+        width: 330px;
+        height: 256px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .product_info_paper_list {
+        margin-top: 0px;
+        height: 360px;
+    }
+    .product_info_paper_item_heading {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .product_info_paper_text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .our_product {
+        padding: 0px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+    .our_product_container {
+        padding: 0px 32px;
+    }
+    .our_product_list {
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .our_product_item {
+        max-width: 240px;
+        margin-bottom: 40px;
+    }
+    .our_product_item_img {
+        max-width: 240px;
+        max-height: 180px;
+        object-fit: none;
+        object-position: top;
+    }
+    .our_product_item_heading {
+        margin-bottom: 4px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .our_product_item_text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .partners {
+        padding: 60px 0px;
+    }
+    .partners_container {
+        padding: 0px 33px 0px;
+    }
+    .partners_logo {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .partners_list {
+        width: 240px;
+        height: 127px;
+    }
+    .partners_list_hahnemuehle {
+        width: 185px;
+        height: 51px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .partners_list_canson {
+        width: 175x;
+        height: 49px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .partners_list_oyaltalens {
+        width: 211px;
+        height: 19px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .partners_list_fabriano {
+        width: 196px;
+        height: 24x;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .book {
+        padding-top: 60px;
+    }
+    .book_container {
+        padding: 0px 32px;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .book_list {
+        margin-top: 10px;
+        width: 510px;
+        height: 215px;
+    }
+    .book_list_item_heading {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .book_list_item_text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header {
+        height: 60px;
+    }
+    .header_container {
+        padding: 0px 15px;
+    }
+    .header_logo {
+        margin-bottom: 0px;
+    }
+    .header_nav {
+        display: none;
+    }
+    .about_us_container {
+        flex-direction: column;
+        padding: 0px 15px;
+        align-items: center
+    }
+    .about_us_list {
+        margin: 50px 0px;
+        width: 100%;
+        height: 230px;
+    }
+    .about_us_img {
+        display: none;
+    }
+    .about_us_list_heading {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .about_us_list_text {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .about_us_list_button,
+    .book_list_item_link {
+    width: 144px;
+    height: 50px;
+    padding: 20px 50px 20px 50px;
+    border: 1px solid var(--button-color);
+    }
+    .product_info {
+        padding: 60px 0px;
+    }
+    .product_info_container {
+        padding: 0px 15px;
+    }
+    .product_info_img_list {
+        height: 388px;
+        flex-direction: column;
+    }
+    .product_info_img_item {
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .product_info_img_item_image {
+        width: 130px;
+        height: 96px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .product_info_img_item_box_heading
+    .product_info_img_item_box_text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .product_info_paper {
+        align-items: center;
+        flex-direction: column;
+        margin-top: 60px;
+        max-height: 615px;
+        gap: 20px;
+    }
+    .product_info_paper_img {
+        width: 290px;
+        height: 223px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .product_info_paper_list {
+        margin-top: 0px;
+        width: 100%;
+        height: 310px;
+    }
+    .product_info_paper_item_heading {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .product_info_paper_text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .our_product {
+        padding: 0px;
+        margin-top: 60px;
+    }
+    .our_product_container {
+        padding: 0px 15px;
+    }
+    .our_product_list {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0px;
+    }
+    .our_product_item {
+        max-width: 100%;
+        margin-bottom: 60px;
+    }
+    .our_product_item_img {
+        max-width: 100%;
+        max-height: 180px;
+        object-fit: none;
+        object-position: top;
+    }
+    .our_product_item_heading {
+        margin-bottom: 4px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .our_product_item_text {
+        font-size: 16px;
+        line-height: 27px;
+    }
+
+    .partners_container {
+        padding: 0px 15px 0px;
+    }
+    .partners_list {
+        width: 150px;
+        height: 80px;
+    }
+    .partners_list_hahnemuehle {
+        width: 115px;
+        height: 32px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .partners_list_canson {
+        width: 109x;
+        height: 31px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .partners_list_oyaltalens {
+        width: 132px;
+        height: 12px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .partners_list_fabriano {
+        width: 122px;
+        height: 15x;
+        object-fit: cover;
+        object-position: top;
+    }
+    .book {
+        padding-top: 60px;
+    }
+    .book_container {
+        padding: 0px 15px;
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .book_list {
+        width: 100%;
+        height: 230px;
+    }
+    .book_img_576 {
+        width: 290px;
+        height: 221px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .footer {
+        padding: 20px 0px;
+    }
+    .footer_container {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 15px;
+    }
+    .footer_logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 20px;
+        border-bottom: 1px solid var(--border-color-head);
+        margin-bottom: 20px;
+    }
+}
